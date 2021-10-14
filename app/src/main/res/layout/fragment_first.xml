@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:id="@+id/textview_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All possible integrations"/>
+
+    <Button
+        android:id="@+id/google_directions_link"
+        android:autoLink="all"
+        android:lines="1"
+        android:textSize="8sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://www.google.com/maps/dir/Lisbon/Porto/@39.9368056,-9.9874397,8z/data=!4m29!4m28!1m20!1m1!1s0xd19331a61e4f33b:0x400ebbde49036d0!2m2!1d-9.1393366!2d38.7222524!3m4!1m2!1d-8.3091729!2d39.6281356!3s0xd1879df52f65691:0x300b47845bb448c2!3m4!1m2!1d-8.2771!2d40.2251977!3s0xd22e4e515719071:0x77202125ec4720a!3m4!1m2!1d-7.9635742!2d40.614806!3s0xd2339e344522187:0x61f15464d5b1b86!1m5!1m1!1s0xd2465abc4e153c1:0xa648d95640b114bc!2m2!1d-8.6291053!2d41.1579438!3e0" />
+
+    <Button
+        android:id="@+id/geo_intent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intent geo:41.1579438,-8.6291053" />
+
+    <Button
+        android:id="@+id/geo_intent_with_metadata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intent w/ Metadata geo:41.1579438,-8.6291053" />
+
+    <Button
+        android:id="@+id/no_permission_workspace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No permission for Workspace" />
+
+    <Button
+        android:id="@+id/task_not_found"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task not found" />
+
+    <Button
+        android:id="@+id/no_workspace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Missing Workspace" />
+
+    <Button
+        android:id="@+id/no_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Missing Task" />
+
+    <Button
+        android:id="@+id/task_found"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task found!" />
+
+    <Button
+        android:id="@+id/task_already_finished"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task already finished" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
